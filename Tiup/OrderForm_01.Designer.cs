@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OrderForm_01));
             this.CourseGrp_01 = new System.Windows.Forms.GroupBox();
             this.rdoSvc_Advanced = new System.Windows.Forms.RadioButton();
             this.rdoSvc_Intermediate = new System.Windows.Forms.RadioButton();
@@ -48,35 +49,38 @@
             this.rdoRoom_01 = new System.Windows.Forms.RadioButton();
             this.lstBxDisplay_01 = new System.Windows.Forms.ListBox();
             this.SnackGrp_01 = new System.Windows.Forms.GroupBox();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.SnackUpDn_03 = new System.Windows.Forms.NumericUpDown();
+            this.SnackUpDn_02 = new System.Windows.Forms.NumericUpDown();
+            this.SnackUpDn_01 = new System.Windows.Forms.NumericUpDown();
             this.chkBxSnack_03 = new System.Windows.Forms.CheckBox();
             this.chkBxSnack_02 = new System.Windows.Forms.CheckBox();
             this.chkBxSnack_01 = new System.Windows.Forms.CheckBox();
             this.DrinkGrp_01 = new System.Windows.Forms.GroupBox();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
+            this.DrinkUpDn_03 = new System.Windows.Forms.NumericUpDown();
             this.chkBxDrink_01 = new System.Windows.Forms.CheckBox();
-            this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
+            this.DrinkUpDn_02 = new System.Windows.Forms.NumericUpDown();
             this.chkBxDrink_02 = new System.Windows.Forms.CheckBox();
-            this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
+            this.DrinkUpDn_01 = new System.Windows.Forms.NumericUpDown();
             this.chkBxDrink_03 = new System.Windows.Forms.CheckBox();
             this.btnOrder_01 = new System.Windows.Forms.Button();
             this.txtBxCourse_01 = new System.Windows.Forms.TextBox();
             this.txtBxLevel_01 = new System.Windows.Forms.TextBox();
             this.txtBxSnack_01 = new System.Windows.Forms.TextBox();
             this.txtBxDrink_01 = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.CourseGrp_01.SuspendLayout();
             this.LevelGrp_01.SuspendLayout();
             this.RoomGrp_01.SuspendLayout();
             this.SnackGrp_01.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SnackUpDn_03)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SnackUpDn_02)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SnackUpDn_01)).BeginInit();
             this.DrinkGrp_01.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DrinkUpDn_03)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DrinkUpDn_02)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DrinkUpDn_01)).BeginInit();
             this.SuspendLayout();
             // 
             // CourseGrp_01
@@ -290,16 +294,16 @@
             // 
             this.lstBxDisplay_01.FormattingEnabled = true;
             this.lstBxDisplay_01.ItemHeight = 12;
-            this.lstBxDisplay_01.Location = new System.Drawing.Point(12, 867);
+            this.lstBxDisplay_01.Location = new System.Drawing.Point(12, 903);
             this.lstBxDisplay_01.Name = "lstBxDisplay_01";
-            this.lstBxDisplay_01.Size = new System.Drawing.Size(602, 328);
+            this.lstBxDisplay_01.Size = new System.Drawing.Size(602, 292);
             this.lstBxDisplay_01.TabIndex = 4;
             // 
             // SnackGrp_01
             // 
-            this.SnackGrp_01.Controls.Add(this.numericUpDown3);
-            this.SnackGrp_01.Controls.Add(this.numericUpDown2);
-            this.SnackGrp_01.Controls.Add(this.numericUpDown1);
+            this.SnackGrp_01.Controls.Add(this.SnackUpDn_03);
+            this.SnackGrp_01.Controls.Add(this.SnackUpDn_02);
+            this.SnackGrp_01.Controls.Add(this.SnackUpDn_01);
             this.SnackGrp_01.Controls.Add(this.chkBxSnack_03);
             this.SnackGrp_01.Controls.Add(this.chkBxSnack_02);
             this.SnackGrp_01.Controls.Add(this.chkBxSnack_01);
@@ -310,29 +314,29 @@
             this.SnackGrp_01.TabStop = false;
             this.SnackGrp_01.Text = "스낵";
             // 
-            // numericUpDown3
+            // SnackUpDn_03
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(156, 74);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(31, 21);
-            this.numericUpDown3.TabIndex = 15;
-            this.numericUpDown3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.SnackUpDn_03.Location = new System.Drawing.Point(156, 74);
+            this.SnackUpDn_03.Name = "SnackUpDn_03";
+            this.SnackUpDn_03.Size = new System.Drawing.Size(31, 21);
+            this.SnackUpDn_03.TabIndex = 15;
+            this.SnackUpDn_03.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // numericUpDown2
+            // SnackUpDn_02
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(157, 47);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(31, 21);
-            this.numericUpDown2.TabIndex = 14;
-            this.numericUpDown2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.SnackUpDn_02.Location = new System.Drawing.Point(157, 47);
+            this.SnackUpDn_02.Name = "SnackUpDn_02";
+            this.SnackUpDn_02.Size = new System.Drawing.Size(31, 21);
+            this.SnackUpDn_02.TabIndex = 14;
+            this.SnackUpDn_02.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // numericUpDown1
+            // SnackUpDn_01
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(156, 20);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(31, 21);
-            this.numericUpDown1.TabIndex = 11;
-            this.numericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.SnackUpDn_01.Location = new System.Drawing.Point(156, 20);
+            this.SnackUpDn_01.Name = "SnackUpDn_01";
+            this.SnackUpDn_01.Size = new System.Drawing.Size(31, 21);
+            this.SnackUpDn_01.TabIndex = 11;
+            this.SnackUpDn_01.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // chkBxSnack_03
             // 
@@ -366,11 +370,11 @@
             // 
             // DrinkGrp_01
             // 
-            this.DrinkGrp_01.Controls.Add(this.numericUpDown4);
+            this.DrinkGrp_01.Controls.Add(this.DrinkUpDn_03);
             this.DrinkGrp_01.Controls.Add(this.chkBxDrink_01);
-            this.DrinkGrp_01.Controls.Add(this.numericUpDown5);
+            this.DrinkGrp_01.Controls.Add(this.DrinkUpDn_02);
             this.DrinkGrp_01.Controls.Add(this.chkBxDrink_02);
-            this.DrinkGrp_01.Controls.Add(this.numericUpDown6);
+            this.DrinkGrp_01.Controls.Add(this.DrinkUpDn_01);
             this.DrinkGrp_01.Controls.Add(this.chkBxDrink_03);
             this.DrinkGrp_01.Location = new System.Drawing.Point(12, 468);
             this.DrinkGrp_01.Name = "DrinkGrp_01";
@@ -379,13 +383,13 @@
             this.DrinkGrp_01.TabStop = false;
             this.DrinkGrp_01.Text = "음료";
             // 
-            // numericUpDown4
+            // DrinkUpDn_03
             // 
-            this.numericUpDown4.Location = new System.Drawing.Point(156, 83);
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(31, 21);
-            this.numericUpDown4.TabIndex = 21;
-            this.numericUpDown4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.DrinkUpDn_03.Location = new System.Drawing.Point(156, 83);
+            this.DrinkUpDn_03.Name = "DrinkUpDn_03";
+            this.DrinkUpDn_03.Size = new System.Drawing.Size(31, 21);
+            this.DrinkUpDn_03.TabIndex = 21;
+            this.DrinkUpDn_03.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // chkBxDrink_01
             // 
@@ -397,13 +401,13 @@
             this.chkBxDrink_01.Text = "캔맥주(1EA 5,000원)";
             this.chkBxDrink_01.UseVisualStyleBackColor = true;
             // 
-            // numericUpDown5
+            // DrinkUpDn_02
             // 
-            this.numericUpDown5.Location = new System.Drawing.Point(157, 56);
-            this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(31, 21);
-            this.numericUpDown5.TabIndex = 20;
-            this.numericUpDown5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.DrinkUpDn_02.Location = new System.Drawing.Point(157, 56);
+            this.DrinkUpDn_02.Name = "DrinkUpDn_02";
+            this.DrinkUpDn_02.Size = new System.Drawing.Size(31, 21);
+            this.DrinkUpDn_02.TabIndex = 20;
+            this.DrinkUpDn_02.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // chkBxDrink_02
             // 
@@ -415,13 +419,13 @@
             this.chkBxDrink_02.Text = "콜라(1EA 3,000원)";
             this.chkBxDrink_02.UseVisualStyleBackColor = true;
             // 
-            // numericUpDown6
+            // DrinkUpDn_01
             // 
-            this.numericUpDown6.Location = new System.Drawing.Point(156, 29);
-            this.numericUpDown6.Name = "numericUpDown6";
-            this.numericUpDown6.Size = new System.Drawing.Size(31, 21);
-            this.numericUpDown6.TabIndex = 16;
-            this.numericUpDown6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.DrinkUpDn_01.Location = new System.Drawing.Point(156, 29);
+            this.DrinkUpDn_01.Name = "DrinkUpDn_01";
+            this.DrinkUpDn_01.Size = new System.Drawing.Size(31, 21);
+            this.DrinkUpDn_01.TabIndex = 16;
+            this.DrinkUpDn_01.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // chkBxDrink_03
             // 
@@ -497,6 +501,30 @@
             this.txtBxDrink_01.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtBxDrink_01.WordWrap = false;
             // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+            this.panel1.Location = new System.Drawing.Point(12, 145);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(607, 475);
+            this.panel1.TabIndex = 11;
+            // 
+            // panel2
+            // 
+            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
+            this.panel2.Location = new System.Drawing.Point(12, 626);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(607, 271);
+            this.panel2.TabIndex = 12;
+            // 
+            // panel3
+            // 
+            this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
+            this.panel3.Location = new System.Drawing.Point(418, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(209, 139);
+            this.panel3.TabIndex = 13;
+            // 
             // OrderForm_01
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -513,6 +541,9 @@
             this.Controls.Add(this.RoomGrp_01);
             this.Controls.Add(this.LevelGrp_01);
             this.Controls.Add(this.CourseGrp_01);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel3);
             this.Name = "OrderForm_01";
             this.Text = "티업";
             this.CourseGrp_01.ResumeLayout(false);
@@ -523,14 +554,14 @@
             this.RoomGrp_01.PerformLayout();
             this.SnackGrp_01.ResumeLayout(false);
             this.SnackGrp_01.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SnackUpDn_03)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SnackUpDn_02)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SnackUpDn_01)).EndInit();
             this.DrinkGrp_01.ResumeLayout(false);
             this.DrinkGrp_01.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DrinkUpDn_03)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DrinkUpDn_02)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DrinkUpDn_01)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -559,23 +590,26 @@
         private System.Windows.Forms.ListBox lstBxDisplay_01;
         private System.Windows.Forms.GroupBox SnackGrp_01;
         private System.Windows.Forms.GroupBox DrinkGrp_01;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown SnackUpDn_03;
+        private System.Windows.Forms.NumericUpDown SnackUpDn_02;
+        private System.Windows.Forms.NumericUpDown SnackUpDn_01;
         private System.Windows.Forms.CheckBox chkBxSnack_03;
         private System.Windows.Forms.CheckBox chkBxSnack_02;
         private System.Windows.Forms.CheckBox chkBxSnack_01;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
+        private System.Windows.Forms.NumericUpDown DrinkUpDn_03;
         private System.Windows.Forms.CheckBox chkBxDrink_01;
-        private System.Windows.Forms.NumericUpDown numericUpDown5;
+        private System.Windows.Forms.NumericUpDown DrinkUpDn_02;
         private System.Windows.Forms.CheckBox chkBxDrink_02;
-        private System.Windows.Forms.NumericUpDown numericUpDown6;
+        private System.Windows.Forms.NumericUpDown DrinkUpDn_01;
         private System.Windows.Forms.CheckBox chkBxDrink_03;
         private System.Windows.Forms.Button btnOrder_01;
         private System.Windows.Forms.TextBox txtBxCourse_01;
         private System.Windows.Forms.TextBox txtBxLevel_01;
         private System.Windows.Forms.TextBox txtBxSnack_01;
         private System.Windows.Forms.TextBox txtBxDrink_01;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
     }
 }
 
