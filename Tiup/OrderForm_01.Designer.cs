@@ -435,12 +435,15 @@
             // 
             // btnOrder_01
             // 
+            this.btnOrder_01.BackColor = System.Drawing.Color.Blue;
+            this.btnOrder_01.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnOrder_01.ForeColor = System.Drawing.Color.Red;
             this.btnOrder_01.Location = new System.Drawing.Point(430, 769);
             this.btnOrder_01.Name = "btnOrder_01";
             this.btnOrder_01.Size = new System.Drawing.Size(151, 51);
             this.btnOrder_01.TabIndex = 6;
             this.btnOrder_01.Text = "주 문";
-            this.btnOrder_01.UseVisualStyleBackColor = true;
+            this.btnOrder_01.UseVisualStyleBackColor = false;
             // 
             // txtBxCourse_01
             // 
@@ -457,6 +460,7 @@
             // 
             // txtBxLevel_01
             // 
+            this.txtBxLevel_01.BackColor = System.Drawing.SystemColors.Control;
             this.txtBxLevel_01.Font = new System.Drawing.Font("굴림", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.txtBxLevel_01.ForeColor = System.Drawing.Color.Blue;
             this.txtBxLevel_01.Location = new System.Drawing.Point(257, 196);
@@ -469,6 +473,7 @@
             // 
             // txtBxSnack_01
             // 
+            this.txtBxSnack_01.BackColor = System.Drawing.SystemColors.Control;
             this.txtBxSnack_01.Font = new System.Drawing.Font("굴림", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.txtBxSnack_01.ForeColor = System.Drawing.Color.Blue;
             this.txtBxSnack_01.Location = new System.Drawing.Point(257, 349);
@@ -481,6 +486,7 @@
             // 
             // txtBxDrink_01
             // 
+            this.txtBxDrink_01.BackColor = System.Drawing.SystemColors.Control;
             this.txtBxDrink_01.Font = new System.Drawing.Font("굴림", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.txtBxDrink_01.ForeColor = System.Drawing.Color.Blue;
             this.txtBxDrink_01.Location = new System.Drawing.Point(257, 502);
