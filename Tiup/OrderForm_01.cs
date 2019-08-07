@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Tiup
 {
-    public partial class Form1 : Form
+    public partial class OrderForm_01 : Form
     {
-        public Form1()
+        public OrderForm_01()
         {
             InitializeComponent();
         }
