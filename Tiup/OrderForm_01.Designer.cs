@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OrderForm_01));
             this.CourseGrp_01 = new System.Windows.Forms.GroupBox();
             this.rdoSvc_Advanced = new System.Windows.Forms.RadioButton();
             this.rdoSvc_Intermediate = new System.Windows.Forms.RadioButton();
@@ -63,13 +62,9 @@
             this.DrinkUpDn_01 = new System.Windows.Forms.NumericUpDown();
             this.chkBxDrink_03 = new System.Windows.Forms.CheckBox();
             this.btnOrder_01 = new System.Windows.Forms.Button();
-            this.txtBxCourse_01 = new System.Windows.Forms.TextBox();
-            this.txtBxLevel_01 = new System.Windows.Forms.TextBox();
-            this.txtBxSnack_01 = new System.Windows.Forms.TextBox();
-            this.txtBxDrink_01 = new System.Windows.Forms.TextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.CourseGrp_01.SuspendLayout();
             this.LevelGrp_01.SuspendLayout();
             this.RoomGrp_01.SuspendLayout();
@@ -81,6 +76,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.DrinkUpDn_03)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DrinkUpDn_02)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DrinkUpDn_01)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // CourseGrp_01
@@ -186,7 +183,7 @@
             this.RoomGrp_01.Controls.Add(this.rdoRoom_01);
             this.RoomGrp_01.Location = new System.Drawing.Point(12, 626);
             this.RoomGrp_01.Name = "RoomGrp_01";
-            this.RoomGrp_01.Size = new System.Drawing.Size(569, 112);
+            this.RoomGrp_01.Size = new System.Drawing.Size(602, 112);
             this.RoomGrp_01.TabIndex = 3;
             this.RoomGrp_01.TabStop = false;
             this.RoomGrp_01.Text = " 룸 배정";
@@ -441,99 +438,52 @@
             // 
             this.btnOrder_01.BackColor = System.Drawing.Color.Blue;
             this.btnOrder_01.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnOrder_01.Font = new System.Drawing.Font("돋움", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnOrder_01.ForeColor = System.Drawing.Color.Red;
-            this.btnOrder_01.Location = new System.Drawing.Point(430, 769);
+            this.btnOrder_01.Location = new System.Drawing.Point(54, 784);
             this.btnOrder_01.Name = "btnOrder_01";
             this.btnOrder_01.Size = new System.Drawing.Size(151, 51);
             this.btnOrder_01.TabIndex = 6;
-            this.btnOrder_01.Text = "주 문";
+            this.btnOrder_01.Text = "결 제";
             this.btnOrder_01.UseVisualStyleBackColor = false;
             // 
-            // txtBxCourse_01
+            // pictureBox1
             // 
-            this.txtBxCourse_01.BackColor = System.Drawing.SystemColors.Control;
-            this.txtBxCourse_01.Font = new System.Drawing.Font("굴림", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.txtBxCourse_01.ForeColor = System.Drawing.Color.Blue;
-            this.txtBxCourse_01.Location = new System.Drawing.Point(257, 46);
-            this.txtBxCourse_01.Name = "txtBxCourse_01";
-            this.txtBxCourse_01.ShortcutsEnabled = false;
-            this.txtBxCourse_01.Size = new System.Drawing.Size(155, 41);
-            this.txtBxCourse_01.TabIndex = 7;
-            this.txtBxCourse_01.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtBxCourse_01.WordWrap = false;
+            this.pictureBox1.Location = new System.Drawing.Point(-23, -46);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
             // 
-            // txtBxLevel_01
+            // pictureBox2
             // 
-            this.txtBxLevel_01.BackColor = System.Drawing.SystemColors.Control;
-            this.txtBxLevel_01.Font = new System.Drawing.Font("굴림", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.txtBxLevel_01.ForeColor = System.Drawing.Color.Blue;
-            this.txtBxLevel_01.Location = new System.Drawing.Point(257, 196);
-            this.txtBxLevel_01.Name = "txtBxLevel_01";
-            this.txtBxLevel_01.ShortcutsEnabled = false;
-            this.txtBxLevel_01.Size = new System.Drawing.Size(155, 41);
-            this.txtBxLevel_01.TabIndex = 8;
-            this.txtBxLevel_01.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtBxLevel_01.WordWrap = false;
+            this.pictureBox2.Location = new System.Drawing.Point(216, 22);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(398, 575);
+            this.pictureBox2.TabIndex = 15;
+            this.pictureBox2.TabStop = false;
             // 
-            // txtBxSnack_01
+            // button1
             // 
-            this.txtBxSnack_01.BackColor = System.Drawing.SystemColors.Control;
-            this.txtBxSnack_01.Font = new System.Drawing.Font("굴림", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.txtBxSnack_01.ForeColor = System.Drawing.Color.Blue;
-            this.txtBxSnack_01.Location = new System.Drawing.Point(257, 349);
-            this.txtBxSnack_01.Name = "txtBxSnack_01";
-            this.txtBxSnack_01.ShortcutsEnabled = false;
-            this.txtBxSnack_01.Size = new System.Drawing.Size(155, 41);
-            this.txtBxSnack_01.TabIndex = 9;
-            this.txtBxSnack_01.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtBxSnack_01.WordWrap = false;
-            // 
-            // txtBxDrink_01
-            // 
-            this.txtBxDrink_01.BackColor = System.Drawing.SystemColors.Control;
-            this.txtBxDrink_01.Font = new System.Drawing.Font("굴림", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.txtBxDrink_01.ForeColor = System.Drawing.Color.Blue;
-            this.txtBxDrink_01.Location = new System.Drawing.Point(257, 502);
-            this.txtBxDrink_01.Name = "txtBxDrink_01";
-            this.txtBxDrink_01.ShortcutsEnabled = false;
-            this.txtBxDrink_01.Size = new System.Drawing.Size(155, 41);
-            this.txtBxDrink_01.TabIndex = 10;
-            this.txtBxDrink_01.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtBxDrink_01.WordWrap = false;
-            // 
-            // panel1
-            // 
-            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
-            this.panel1.Location = new System.Drawing.Point(12, 145);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(607, 475);
-            this.panel1.TabIndex = 11;
-            // 
-            // panel2
-            // 
-            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
-            this.panel2.Location = new System.Drawing.Point(12, 626);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(607, 271);
-            this.panel2.TabIndex = 12;
-            // 
-            // panel3
-            // 
-            this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
-            this.panel3.Location = new System.Drawing.Point(418, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(209, 139);
-            this.panel3.TabIndex = 13;
+            this.button1.BackColor = System.Drawing.Color.Blue;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("돋움", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button1.ForeColor = System.Drawing.Color.Red;
+            this.button1.Location = new System.Drawing.Point(243, 784);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(151, 51);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "취 소";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // OrderForm_01
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(631, 1220);
-            this.Controls.Add(this.txtBxDrink_01);
-            this.Controls.Add(this.txtBxSnack_01);
-            this.Controls.Add(this.txtBxLevel_01);
-            this.Controls.Add(this.txtBxCourse_01);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnOrder_01);
             this.Controls.Add(this.DrinkGrp_01);
             this.Controls.Add(this.SnackGrp_01);
@@ -541,9 +491,6 @@
             this.Controls.Add(this.RoomGrp_01);
             this.Controls.Add(this.LevelGrp_01);
             this.Controls.Add(this.CourseGrp_01);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel3);
             this.Name = "OrderForm_01";
             this.Text = "티업";
             this.CourseGrp_01.ResumeLayout(false);
@@ -562,8 +509,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.DrinkUpDn_03)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DrinkUpDn_02)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DrinkUpDn_01)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -603,13 +551,9 @@
         private System.Windows.Forms.NumericUpDown DrinkUpDn_01;
         private System.Windows.Forms.CheckBox chkBxDrink_03;
         private System.Windows.Forms.Button btnOrder_01;
-        private System.Windows.Forms.TextBox txtBxCourse_01;
-        private System.Windows.Forms.TextBox txtBxLevel_01;
-        private System.Windows.Forms.TextBox txtBxSnack_01;
-        private System.Windows.Forms.TextBox txtBxDrink_01;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button button1;
     }
 }
 
