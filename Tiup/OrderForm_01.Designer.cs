@@ -446,6 +446,7 @@
             this.btnOrder_01.TabIndex = 6;
             this.btnOrder_01.Text = "결 제";
             this.btnOrder_01.UseVisualStyleBackColor = false;
+            this.btnOrder_01.Click += new System.EventHandler(this.btnOrder_01_Click);
             // 
             // pictureBox1
             // 
