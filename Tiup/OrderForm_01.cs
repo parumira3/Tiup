@@ -12,6 +12,7 @@ namespace Tiup
 {
     public partial class OrderForm_01 : Form
     {
+        public delegate int delgOrderDecision(int i);
 
         int _Tot_Price = 0;
         public OrderForm_01()
